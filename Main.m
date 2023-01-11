@@ -1,12 +1,10 @@
-%% PREPROCESSOR
+%% Narges Derakhshandeh. Homework11
 % Globally we have a complete multibody system
 % It must contain bodies, joints, analysis settings
-clear all;
-clc;
-close all;
+clear all; clc; close all;
 sys = make_system();
+%% Bodies
 
-% Bodies
 
 % What do we need to describe our body?
 % location, orientation, name 
